@@ -48,7 +48,7 @@ body {
 .header-right {
   display: flex;
   align-items: center;
-  gap: 30px; /* расстояние между поиском и ИИ */
+  gap: 30px; 
 }
 
 .logo {
@@ -134,20 +134,20 @@ body {
   position: relative;
 }
 
-.hero-title {
-  font-family:  'Bounded SemiBold';
-  font-size: 70px;
+@font-face {
+  font-family: 'Bounded-SemiBold'; 
+  font-style: normal;
   font-weight: 600;
+  src: url('Bounded-Semibold.woff2') format('woff2'); 
+  font-display: swap;
+}
+.hero-title {
+  font-family: 'Bounded-SemiBold', Arial, sans-serif; 
+  font-size: 70px;
+  font-weight: 600; 
   line-height: 1.0;
   padding-left: 30px;
   padding-top: 30px;
-}
-@font-face {
-  font-family: 'Bounded';
-  font-weight: 500;
-  font-style: normal;
-  src: url('Bounded-Semibold.otf') format('opentype');
-  font-display: swap;
 }
 
 .hero-left {
@@ -557,4 +557,5 @@ body {
   font-size: 20px;
   color: #ffffff;
 }
+
 

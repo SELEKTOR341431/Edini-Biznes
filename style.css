@@ -142,7 +142,7 @@ body {
   font-display: swap;
 }
 .hero-title {
-  font-family: 'Bounded-SemiBold', Arial, sans-serif; 
+  font-family: 'fonts/Bounded-SemiBold', Arial, sans-serif; 
   font-size: 70px;
   font-weight: 600; 
   line-height: 1.0;
@@ -557,6 +557,7 @@ body {
   font-size: 20px;
   color: #ffffff;
 }
+
 
 
 
